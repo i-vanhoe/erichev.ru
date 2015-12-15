@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{{ site.title }} | {{ page.title }}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/i/style.css" />
+</head>
+
+<body>
+<table width="608" border="0" align="center" cellpadding="0" cellspacing="1" id="mt">
+  <tr>
+    <td colspan="5"><img src="/i/top2.jpg" alt="Еричев А.Н." width="608" border="0" /></td>
+  </tr>
+  <tr id="menu">
+    <td width="20%"><a href="/">Главная</a></td>
+    <td width="20%"><a href="/bio/">Биография</a></td>
+    <td width="20%"><a href="/ill/">Для клиентов</a></td>
+    <td width="20%"><a href="/neo/">Обучение</a></td>
+    <td width="20%"><a href="/mil/">Нужна помощь?</a></td>
+  </tr>
+  <tr>
+    <td colspan="5" id="content">
+
+        {{ content }}
+
+	{% include help.html %}
+
+    </td>
+  </tr>
+  <tr>
+    <td colspan="5" id="copy">
+		&copy; Copyright <a href="mailto:an@erichev.ru">Еричев А.Н.</a>,
+		2015 y. | Создание сайта &mdash; <a href="https://fedorov.net">Михаил Фёдоров</a>
+	</td>
+  </tr>
+</table>
+ {% include analytics.html %}
+</body>
+</html>
