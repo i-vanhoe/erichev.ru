@@ -29,12 +29,13 @@ table {
 #title {
 	width: 300px;
 	background-color: #000000;
+	filter: alpha(opacity=70);
 }
 
 #hdt #hname {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: bold;
-	color: 
+	color: #ffffff;
 }
 
 #mt {
