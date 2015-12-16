@@ -16,6 +16,11 @@ table {
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 }
+table #hdt img {
+        border-top-left-radius: 2em;
+        border-top-right-radius: 2em;
+
+}
 #mt {
 	background-color: #ffffff;
 }
