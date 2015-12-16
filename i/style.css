@@ -39,15 +39,16 @@ table {
 	position: relative;
 	top: -150px;
 	width: 280px;
-	padding: 20px;
+	padding-left: 20px;
+	padding-top: 15px;
         font-weight: bold;
         color: #ffffff;
 }
 #hdt #titletext #hname {
-	font-size: 3em;
+	font-size: 2.5em;
 }
 #hdt #titletext #htitle {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #mt {
