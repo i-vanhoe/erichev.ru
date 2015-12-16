@@ -22,11 +22,11 @@ table {
         border-top-right-radius: 3em;
 	height: 405px;
 	vertical-align: top;
-	padding-left: 20px;
-	padding-top: 20px;
 }
 
 #hdt #title {
+	margin-left: 20px;
+	margin-top: 20px;
 	width: 270px;
 	background-color: #000000;
 	filter: alpha(opacity=40);
@@ -36,6 +36,8 @@ table {
 }
 
 #hdt #titletext {
+	margin-left: 20px;
+	margin-top: 20px;
 	position: relative;
 	top: -170px;
 	width: 280px;
