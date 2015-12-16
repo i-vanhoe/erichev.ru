@@ -27,12 +27,12 @@ table {
 }
 
 #hdt #title {
-	width: 300px;
+	width: 270px;
 	background-color: #000000;
-	filter: alpha(opacity=30);
-	opacity: 0.3;
+	filter: alpha(opacity=40);
+	opacity: 0.4;
         border-radius: 1em;
-	height: 150px;
+	height: 170px;
 }
 
 #hdt #titletext {
