@@ -1,4 +1,3 @@
-title: Еричев А.Н.
-
-# Build settings
+title: 'Еричев А.Н.'
+include: ['_pages']
 markdown: kramdown
