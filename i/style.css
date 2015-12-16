@@ -31,7 +31,7 @@ table {
 	background-color: #000000;
 	filter: alpha(opacity=30);
 	opacity: 0.3;
-        border-radius: 2em;
+        border-radius: 1em;
 	height: 150px;
 }
 
