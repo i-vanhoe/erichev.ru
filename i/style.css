@@ -20,6 +20,7 @@ table #hdt {
         background-image: url('/i/top3.jpg');
         border-top-left-radius: 3em;
         border-top-right-radius: 3em;
+	heighr: 405px;
 }
 #mt {
 	background-color: #ffffff;
