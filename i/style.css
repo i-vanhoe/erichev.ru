@@ -10,7 +10,7 @@ a {
 	color: #c9dbe7;
 }
 table, tr, td {
-	border: 0;
+	border: none;
 }
 
 #mt {
