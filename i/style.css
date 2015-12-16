@@ -30,6 +30,8 @@ table {
 	width: 300px;
 	background-color: #000000;
 	filter: alpha(opacity=30);
+	opacity: 0.3;
+        border-radius: 3em;
 }
 
 #hdt #hname {
