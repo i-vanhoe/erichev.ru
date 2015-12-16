@@ -26,20 +26,20 @@ table {
 	padding-top: 20px;
 }
 
-#title {
+#hdt #title {
 	width: 300px;
 	background-color: #000000;
 	filter: alpha(opacity=30);
 	opacity: 0.3;
-        border-radius: 3em;
+        border-radius: 2em;
 }
 
-#hdt #hname {
-	font-size: 3em;
-	font-weight: bold;
-	color: #ffffff;
-        filter: alpha(opacity=100);
-        opacity: 1.0;
+#hdt #titletext {
+	width: 300px;
+	padding: 10px;
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #ffffff;
 }
 
 #mt {
