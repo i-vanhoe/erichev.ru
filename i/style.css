@@ -16,10 +16,8 @@ table {
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 }
-table #hdt img {
-        border-top-left-radius: 2em;
-        border-top-right-radius: 2em;
-
+table #hdt {
+        background-image: url('/i/top3.jpg');
 }
 #mt {
 	background-color: #ffffff;
