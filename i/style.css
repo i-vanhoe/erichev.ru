@@ -16,12 +16,16 @@ table {
 	border-top-left-radius: 3em;
 	border-top-right-radius: 3em;
 }
-table #hdt {
+#hdt {
         background-image: url('/i/top3.jpg');
         border-top-left-radius: 3em;
         border-top-right-radius: 3em;
 	height: 405px;
+	vertical-align: top;
+	padding-left: 20px;
+	padding-top: 20px;
 }
+
 #mt {
 	background-color: #ffffff;
 }
