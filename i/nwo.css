@@ -146,14 +146,11 @@ table {
 }
 
 #hdt #title {
-	margin-left: 20px;
-	margin-top: 20px;
-	width: 270px;
+	margin: 0;
+	width: 100%;;
 	background-color: #000000;
 	filter: alpha(opacity=40);
 	opacity: 0.4;
-        border-radius: 1em;
-	height: 170px;
 }
 
 #hdt #titletext {
