@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{{ site.engtitle }} | {{ page.title }}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="/i/lightbox.min.css">
+<link rel="stylesheet" type="text/css" href="/i/style.css">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa&subset=cyrillic" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table width="608" border="0" align="center" cellpadding="0" cellspacing="1" id="mt">
+  <tr id="hdr">
+    <td colspan="5" id="hdt">
+	<div id="title">&nbsp;</div>
+	<div id="titletext">
+          <div id="hname">Erichev<br />Aleksandr<br />Nikolaevich</div>
+          <div id="htitle">Psychotherapist</div>
+	</div>
+    </td>
+  </tr>
+  <tr id="menu">
+    <td width="20%"><a href="/">Start</a></td>
+    <td width="20%"><a href="/bio/">CV</a></td>
+    <td width="20%"><a href="/ill/">For patients</a></td>
+    <td width="20%"><a href="/neo/">Courses</a></td>
+    <td width="20%"><a href="/mil/">Contact</a></td>
+  </tr>
+  <tr>
+    <td colspan="5" id="content">
+
+        {{ content }}
+
+	{% include help_en.html %}
+
+    </td>
+  </tr>
+  <tr>
+    <td colspan="5" id="copy">
+		&copy; Copyright <a href="mailto:an@erichev.ru">Erichev A.N.</a>,
+		2015 y. | Dev: <a href="https://fedorov.net">Mihail Fedorov</a> | Made on Jekyll and GitHub.
+	</td>
+  </tr>
+</table>
+ {% include analytics.html %}
+</body>
+</html>
