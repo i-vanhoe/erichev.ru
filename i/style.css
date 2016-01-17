@@ -83,7 +83,7 @@ table {
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
-#menu td#langru, #menu td#languk {
+#menu td#langru {
 	padding: 0;
 	background-image: url(/i/ru.svg);
 	background-size: 100% 100%;
@@ -92,7 +92,11 @@ table {
 }
 
 #menu td#languk {
+        padding: 0;
         background-image: url(/i/uk.svg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
 }
 
 h3 {
