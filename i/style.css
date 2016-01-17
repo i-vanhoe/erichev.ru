@@ -83,6 +83,11 @@ table {
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
+#menu td#langru {
+	padding: 0;
+	background-color: #ffffff;
+	background-image: url('/i/ru.svg');
+}
 h3 {
 	text-align: right;
 	font-weight: bold;
